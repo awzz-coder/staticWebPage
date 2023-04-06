@@ -1,0 +1,9 @@
+/* 主要内容 main 样式 */
+.main .area {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: orange; */
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+  background-image: url(../images/main_bg.png);
+}

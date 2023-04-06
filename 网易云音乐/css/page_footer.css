@@ -1,0 +1,78 @@
+/* footer 部分 */
+.footer {
+  height: 325px;
+  border: 1px solid #d3d3d3;
+  background: #f2f2f2;
+}
+
+.footer .main-f .wrapper-f {
+  width: 980px;
+  height: 231px;
+  /* background-color: green; */
+  margin: 33px auto 0;
+}
+
+.footer .main-f .wrapper-f .list {
+  padding: 0 100px;
+  /* background-color: #f00; */
+  justify-content: space-between;
+  display: flex;
+  /* background-color: #333; */
+}
+
+.footer .main-f .wrapper-f .list .logo {
+  display: block;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  background: url(../images/footer_sprite.png);
+}
+
+.footer .main-f .wrapper-f .list .logo.logonew {
+  background-position: -170px -5px;
+  background-size: 220px 220px;
+  margin-bottom: 10px;
+}
+
+.footer .main-f .wrapper-f .list .tt {
+  display: inline-block;
+  width: 100px;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0,0,0, 0.5)
+}
+
+
+.footer .main-f .wrapper-f .copy {
+  height: 100px;
+  margin-top: 60px;
+}
+
+.footer .main-f .wrapper-f .copy p {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer .main-f .wrapper-f .copy p.four {
+  height: 28px;
+}
+
+.footer .main-f .wrapper-f .copy .copy-one {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .main-f .wrapper-f .copy .copy-one .line {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* 播放条 */
+.footer .main-f .wrapper-player{
+  margin-top: 10px;
+  height: 53px;
+  margin-bottom: 0;
+  background-color: #f00;
+}
